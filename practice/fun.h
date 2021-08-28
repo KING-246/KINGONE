@@ -9,10 +9,12 @@ int min(int a,int b);
 int Plat(void)
 {
     int ret;
-    int a=3, b=9;
+    int a=3;
+    int b=9;
 
     ret=g_pfun(a,b);
     printf("the ret number is %d\n",ret);
+
     return 0;
 }
 
